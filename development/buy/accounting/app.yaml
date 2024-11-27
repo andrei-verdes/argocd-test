@@ -15,7 +15,6 @@ spec:
           value: development
   destination:
     server: "https://kubernetes.default.svc"
-    namespace: buy
   syncPolicy:
     automated:
       prune: true
