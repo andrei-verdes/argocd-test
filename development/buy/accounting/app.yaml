@@ -9,6 +9,10 @@ spec:
     chart: helmtest
     repoURL: registry-1.docker.io/andrewv23
     targetRevision: 0.1.0
+    helm:
+      parameters:
+      - name: "environment"
+        value: development
   destination:
     server: "https://kubernetes.default.svc"
     namespace: buy
