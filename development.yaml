@@ -9,6 +9,8 @@ spec:
     repoURL: https://github.com/andrei-verdes/argocd-test
     path: development  # Points to the top-level directory
     targetRevision: HEAD
+    directory:
+      recurse: true
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
