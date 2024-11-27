@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: accounting
+  namespace: buy
+spec:
+  project: development
+  source:
+    chart: buy-accounting-manifests
+    repoURL: nginx
+    targetRevision: 18.2.6
+  destination:
+    server: "https://kubernetes.default.svc"
+    namespace: buy
