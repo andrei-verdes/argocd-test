@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     chart: helmtest
-    repoURL: andrewv23
+    repoURL: registry-1.docker.io/andrewv23
     targetRevision: 0.1.0
     helm:
       parameters:
