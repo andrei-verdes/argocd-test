@@ -8,7 +8,7 @@ spec:
   source:
     chart: buy-accounting-manifests
     repoURL: nginx
-    targetRevision: 18.2.6
+    targetRevision: 18.2.5
   destination:
     server: "https://kubernetes.default.svc"
     namespace: buy
