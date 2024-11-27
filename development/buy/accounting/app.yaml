@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: accounting
-  namespace: buy
+  name: nginx
+  namespace: argocd
 spec:
-  project: development
+  project: default
   source:
     chart: nginx
     repoURL: https://charts.bitnami.com/bitnami
