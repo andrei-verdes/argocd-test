@@ -12,7 +12,7 @@ spec:
     helm:
       parameters:
         - name: "environment"
-          value: development
+          value: staging
   destination:
     server: "https://kubernetes.default.svc"
   syncPolicy:
