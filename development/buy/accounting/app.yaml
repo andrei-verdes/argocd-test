@@ -28,7 +28,7 @@ spec:
   source:
     chart: helmtest
     repoURL: registry-1.docker.io/andrewv23
-    targetRevision: 0.1.4
+    targetRevision: 0.1.5
     helm:
       parameters:
         - name: "environment"
